@@ -1,5 +1,5 @@
 // Write your solution in this file!
-let driver = object
+let driver = object;
 
 function updateDriverWithKeyAndValue() {
 
