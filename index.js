@@ -1,7 +1,8 @@
 // Write your solution in this file!
-let driver = {};
+const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
+  let clone = driver
   return driver[key] = value;
 }
 
