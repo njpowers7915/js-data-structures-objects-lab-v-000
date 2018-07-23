@@ -2,7 +2,8 @@
 const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  driver[key] = value;
+  let clone;
+  clone[key] = value;
   return driver;
 }
 
